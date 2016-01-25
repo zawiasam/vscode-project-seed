@@ -1,0 +1,29 @@
+{
+  "name": "vscode-project-seed",
+  "version": "0.0.1",
+  "description": "Seed for Js Visual Studio Code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zawiasam/vscode-project-seed.git"
+  },
+  "keywords": [
+    "seed",
+    "vscode",
+    "js",
+    "nodejs",
+    "node"
+  ],
+  "author": "Maciej Zawiasa",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/zawiasam/vscode-project-seed/issues"
+  },
+  "homepage": "https://github.com/zawiasam/vscode-project-seed#readme",
+  "devDependencies": {
+    "jscs": "^2.8.0"
+  }
+}
