@@ -5,5 +5,13 @@
 		"**/.DS_Store": true,
 		"**/.idea": true
 	},
-    "editor.tabSize": 2
+	"emeraldwalk.runonsave": {
+		"commands": [
+			{
+				"match": "\\.js$",
+				"cmd": "jscs --config=\"${workspaceRoot}\\.jscsrc\" --fix=\"${file}\""
+			}
+		]
+	},
+  "editor.tabSize": 2
 }
