@@ -9,7 +9,7 @@
 		"commands": [
 			{
 				"match": "\\.js$",
-				"cmd": "jscs --config=\"${workspaceRoot}\\.jscsrc\" --fix=\"${file}\""
+				"cmd": "jscs --config=\"${workspaceRoot}\\.jscsrc\" \"${file}\""
 			}
 		]
 	},
